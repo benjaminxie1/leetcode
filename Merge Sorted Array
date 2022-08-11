@@ -1,6 +1,6 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int a = m-1; //run (1,2,0) 2 (1) 1
+        int a = m-1;
         int b = n-1;
         int c = m+n-1;
             while(b >= 0){
